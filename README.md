@@ -4,6 +4,12 @@
 
 Filter the VCF file called from HAST assembly to reduce the false-positive SVs.
 
+## Installation
+
+```
+cd src && make 
+```
+
 ## Usage 
 ```
 Usage	:
