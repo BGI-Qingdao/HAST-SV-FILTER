@@ -224,9 +224,9 @@ processing insertion...
 "
 
 echo "
-awk -f ${src}/ins_filter.srcipt.awk T=${threshold3} ${prefix}.ins.vcf
+awk -f ${src}/ins_filter.script.awk T=${threshold3} ${prefix}.ins.vcf
 "
-awk -f ${src}/ins_filter.srcipt.awk T=${threshold3} ${prefix}.ins.vcf >${prefix}.ins.filtered.txt
+awk -f ${src}/ins_filter.script.awk T=${threshold3} ${prefix}.ins.vcf >${prefix}.ins.filtered.txt
 
 ##extract SVs from ori vcffile(del only)
 echo "
