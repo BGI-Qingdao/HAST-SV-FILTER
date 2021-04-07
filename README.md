@@ -13,7 +13,7 @@ cd src && make
 ## Usage 
 ```
 Usage	:
-	./filter_truvari.sh [options] -bam <bamfile> -vcf <vcffile> -prefix <prefix>
+	./filter.sh [options] -bam <bamfile> -vcf <vcffile> -prefix <prefix>
 Options	:
 	-threshold1	threshold1[65];
 	-threshold2	threshold2[300];
