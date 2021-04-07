@@ -4,6 +4,13 @@
 
 Filter the VCF file called from HAST assembly to reduce the false-positive SVs.
 
+## Dependence
+1.JDK
+2.bgzip
+3.tabix
+
+Modify config.sh before runnning this pipeline.
+
 ## Installation
 
 ```
