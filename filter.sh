@@ -239,8 +239,6 @@ do
   java -jar ${src}/region_depth_avg.jar ${index}.${prefix}.cov ${ch_id} ${_start} ${_end} ${_start_upstream} ${_end_downstream} ${sv_id} ${threshold1} ${threshold2} >>${index}.${prefix}.del.filtered.bed
 done <${bedfile}
 
-rm ${index}.${prefix}.cov
-rm ${index}.${prefix}.bam
 }
 
 ##pipeline optimize
