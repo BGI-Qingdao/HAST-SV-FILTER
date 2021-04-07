@@ -4,7 +4,7 @@
 
 Filter the VCF file called from HAST assembly to reduce the false-positive SVs.
 
-## Dependence
+## Dependencies
 1. JDK  
 2. bgzip  
 3. tabix  
